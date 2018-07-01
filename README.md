@@ -19,7 +19,6 @@ Modify the Main.java file:
             .baseUrl("https://test.bigchaindb.com")
             .addToken("app_id", "<your app id>")
             .addToken("app_key", "<your app key id>").setup();
-            </code>                         
 * Change the seed string used to create the Keypair.
 
       KeyPair keyPair = generatekeypair("Seed"); 
