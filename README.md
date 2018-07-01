@@ -1,6 +1,6 @@
 # BigchianDB-android
 
-This is a basic android app to interact with a BigchainDB server 2.X. 
+This is a basic android app to interact with a BigchainDB server 2.0. 
 
 This driver is under development but for now you can create and transfer transactions with one input/output. 
 
