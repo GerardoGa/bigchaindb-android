@@ -4,7 +4,7 @@ This is a basic android app to interact with a [BigchainDB](https://www.bigchain
 
 This driver is under development but for now you can create and transfer transactions with one input/output. 
 
-The driver do not use the java classes created by the [Authenteq Team](https://github.com/authenteq/java-bigchaindb-driver) It uses a new class called CustomTransaction.java. Shortly I'm going to delete the classes created by [Authenteq](https://github.com/authenteq/java-bigchaindb-driver) that I do not use.
+The driver do not use the java classes created by the [Authenteq Team](https://github.com/authenteq/java-bigchaindb-driver), it uses a new class called CustomTransaction.java. Shortly I'm going to delete the classes created by [Authenteq](https://github.com/authenteq/java-bigchaindb-driver) that I do not use.
 
 ## Android Compatibility
 minSdkVersion 26
