@@ -6,7 +6,7 @@ This driver is under development but for now you can create and transfer transac
 
 The driver do not use the java classes created by the [Authenteq Team](https://github.com/authenteq/java-bigchaindb-driver) It uses a new class called CustomTransaction.java. Shortly I'm going to delete the classes created by [Authenteq](https://github.com/authenteq/java-bigchaindb-driver) that I do not use.
 
-## Android Compativility
+## Android Compatibility
 minSdkVersion 26
 
 ## Run the App
