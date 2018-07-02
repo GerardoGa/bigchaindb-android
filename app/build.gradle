@@ -20,24 +20,25 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
-    implementation 'com.google.code.gson:gson:2.8.5' //google GSON
-    implementation 'net.i2p.crypto:eddsa:0.3.0' //Java implementation of EdDSA
-    implementation 'com.squareup.okhttp3:okhttp:3.9.0' //Requests
-    implementation group: 'com.google.api-client', name: 'google-api-client', version: '1.23.0'//Base64
-    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.12'//logger
-    implementation group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
-
-
-
-
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //google GSON
+    implementation 'net.i2p.crypto:eddsa:0.3.0'
+    //Java implementation of EdDSA
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    //Requests
+    implementation 'com.google.api-client:google-api-client:1.23.0'
+    //Base64
+    implementation 'org.slf4j:slf4j-simple:1.7.12'
+    //logger
+    implementation 'javax.websocket:javax.websocket-api:1.1'
 }

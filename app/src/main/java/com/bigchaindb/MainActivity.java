@@ -7,10 +7,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.bigchaindb.api.MetadataApi;
 import com.bigchaindb.builders.BigchainDbConfigBuilder;
 import com.bigchaindb.model.Custom.CustomTransaction;
 import com.bigchaindb.model.GenericCallback;
 import com.bigchaindb.util.DriverUtils;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 import net.i2p.crypto.eddsa.EdDSAPrivateKey;
@@ -20,6 +22,7 @@ import net.i2p.crypto.eddsa.spec.EdDSAParameterSpec;
 import net.i2p.crypto.eddsa.spec.EdDSAPrivateKeySpec;
 import net.i2p.crypto.eddsa.spec.EdDSAPublicKeySpec;
 
+import java.io.IOException;
 import java.security.KeyPair;
 import java.util.List;
 import java.util.Random;
@@ -39,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-
 
         createTxButton.setOnClickListener(new View.OnClickListener() {
             @Override

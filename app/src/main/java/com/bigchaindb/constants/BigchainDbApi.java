@@ -32,7 +32,9 @@ public enum BigchainDbApi {
 	VOTES("/votes"),
 	
 	/** The transactions. */
-	TRANSACTIONS("/transactions");
+	TRANSACTIONS("/transactions"),
+	/*The metadata*/
+	METADATA("/metadata");
 
 	/** The value. */
 	private final String value;
