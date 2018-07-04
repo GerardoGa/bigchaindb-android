@@ -12,7 +12,7 @@ minSdkVersion 26
 ## Run the App
 Clone the Android App.
 
-      git clone https://github.com/GerardoGa/BigchianDB-android/
+      git clone https://github.com/GerardoGa/bigchaindb-android/
 
 Modify the Main.java file:
 * Set your app_id and app_key if needed.
