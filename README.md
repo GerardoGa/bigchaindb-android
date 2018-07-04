@@ -1,4 +1,4 @@
-# BigchianDB-android
+# bigchaindb-android
 
 This is a basic android app to interact with a [BigchainDB](https://www.bigchaindb.com/) server 2.0. 
 
